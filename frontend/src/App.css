@@ -1,0 +1,52 @@
+/* #container {
+  Width: 300px to 600px;
+  Height: 400px to 800px;
+  text-align: center;
+  padding: 30px 30px;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 10px auto;
+  
+} */
+
+h1 {
+    padding: 10px;
+    text-align: center;
+    letter-spacing: 4px;
+    color: rgb(94, 152, 241);
+    text-decoration: underline;
+  }
+  
+  #container {
+    width: 500px;
+    /* Example width */
+    height: 400px to 700px;
+    /* Example height */
+    margin: 30px auto;
+    /* Center the container */
+    border: 1px solid #ccc;
+    /* Optional: for visualization */
+    padding: 30px;
+  
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    border-radius: 18px;
+    overflow-y: auto;
+    /* Scroll if content overflows */
+  }
+  
+  #list-container{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  #list-container div {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+   
+  
+  }
+  
+  #list-container i {
+    letter-spacing: 2px;
+  }
